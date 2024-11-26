@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
       <div className="rounded-lg w-full max-w-screen-xl mx-auto md:flex md:items-center md:justify-between py-4">
         <span className="text-sm sm:text-center text-black dark:text-zinc-200/90 ">
           © {currentYear}{' '}
-          <a href="https://sage-dieffenbachia-ac2873.netlify.app/" className="hover:underline">
+          <a href="https://portfoliodev-renatosolis.netlify.app/" className="hover:underline">
             Renato Solis
           </a>
           . SVG-RS. Todos los derechos reservados.
