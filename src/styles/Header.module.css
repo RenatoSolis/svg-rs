@@ -1,0 +1,29 @@
+/* Header.module.css */
+
+.navbar {
+  animation: nav-shadown 1s linear both;
+  animation-timeline: scroll;
+  animation-range: 0 100px;
+  background-color: rgba(255, 255, 255, 0); /* Fondo transparente */
+  backdrop-filter: blur(10px); /* Para el fondo difuso */
+  box-shadow: none; /* Valor inicial */
+  transition: background 0.3s;
+}
+
+@media (prefers-color-scheme: dark) {
+  .navbar {
+    background: rgba(31, 41, 55, 0.9); /* Fondo oscuro */
+  }
+}
+
+@keyframes nav-shadown {
+  0% {
+    background-color: rgba(255, 255, 255, 0); /* Fondo transparente */
+    box-shadow: none;
+  }
+  to {
+    background-color: rgba(255, 255, 255, 0.5); /* Fondo con color */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px); /* Desenfoque de fondo */
+  }
+}
