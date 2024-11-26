@@ -1,6 +1,7 @@
 //import Image from "next/image";
 import GithubIcon from "@/components/icons/GitHubIcon";
 import NextJsIcon from "@/components/icons/NextJsIcon";
+import TailwindCSSIcon from "@/components/icons/TailwindCSSIcon";
 import TypeScriptIcon from "@/components/icons/TypeScriptIcon";
 
 export default function Home() {
@@ -54,6 +55,16 @@ export default function Home() {
               viewBox="0 0 24 24"
             >
               <TypeScriptIcon width={24} height={24} fill="#000" />
+            </svg>
+          </div>
+          <div className="bg-gray-100 p-4 rounded-lg shadow-md flex justify-center items-center">
+            <svg
+              className="h-10 w-10 text-gray-500"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <TailwindCSSIcon width={24} height={24} fill="#000" />
             </svg>
           </div>
         </div>
